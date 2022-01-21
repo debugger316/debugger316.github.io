@@ -1,0 +1,16 @@
+export * from './scmac';
+export { default as autumnChestnutPumpkinPie } from './autumn-chestnut-pumpkin-pie.jpg';
+export { default as background } from './background.jpg';
+export { default as bananaWalnutCake } from './banana-walnut-cake.jpg';
+export { default as myself } from './myself.JPG';
+export { default as beefStroganoff } from './dairy-free-beef-stroganoff.jpg';
+export { default as fallSteakSalad } from './fall-style-steak-salad.jpg';
+export { default as gigs } from './gigs.jpg';
+export { default as scmac } from './scmac.jpg';
+export { default as scmacFull } from './scmac-full.jpg';
+export { default as strawberryCoffeeCake } from './strawberry-coffee-cakes-with-crumble.jpg';
+export { default as strawberryOatsPancakes } from './strawberry-oats-pancakes.jpg';
+export { default as sweetAndSourChicken } from './sweet-and-sour-chicken-in-a-pineapple.jpg';
+export { default as tech4good } from './tech4good-logo.png';
+export { default as twitter } from './twitter.png';
+export { default as darkChocolateChipCookies } from './ultra-soft-dark-chocolate-chip-cookies.jpg';
