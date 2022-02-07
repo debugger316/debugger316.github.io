@@ -1,13 +1,13 @@
-import React from 'react';
-import { Grid } from '@mui/material';
-import { Heading } from '../Heading/Heading';
-import { ShowcaseCard } from '../ShowcaseCard/ShowcaseCard';
-import { projectsSummary } from './constants';
+import React from "react";
+import { Grid } from "@mui/material";
+import { Heading } from "../Heading/Heading";
+import { ShowcaseCard } from "../ShowcaseCard/ShowcaseCard";
+import { projectsSummary } from "./constants";
 
 export const PortfolioSection = (props) => {
   return (
     <>
-      <Heading firstText='Port' secondText='folio' />
+      <Heading firstText="Port" secondText="folio" />
       <Grid container spacing={4} pb={5}>
         {projectsSummary.map((proj) => {
           const { image, company, title, body, to } = proj;

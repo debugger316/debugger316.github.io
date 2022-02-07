@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import { IconButton, ButtonGroup, Paper, useMediaQuery } from '@mui/material';
-import ZoomInIcon from '@mui/icons-material/ZoomIn';
-import ZoomOutIcon from '@mui/icons-material/ZoomOut';
-import CenterFocusWeakIcon from '@mui/icons-material/CenterFocusWeak';
+import React, { useState } from "react";
+import { IconButton, ButtonGroup, Paper, useMediaQuery } from "@mui/material";
+import ZoomInIcon from "@mui/icons-material/ZoomIn";
+import ZoomOutIcon from "@mui/icons-material/ZoomOut";
+import CenterFocusWeakIcon from "@mui/icons-material/CenterFocusWeak";
 import {
   ComposableMap,
   Geographies,
   Geography,
   Marker,
   ZoomableGroup,
-} from 'react-simple-maps';
-import Swal from 'sweetalert2';
-import withReactContent from 'sweetalert2-react-content';
-import { websiteTheme } from '../../styles/websiteTheme';
-import { markers, stories } from './constants';
+} from "react-simple-maps";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+import { websiteTheme } from "../../styles/websiteTheme";
+import { markers, stories } from "./constants";
 
 const geoUrl =
-  'https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json';
+  "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
 
 const hoveredColor = websiteTheme.palette.secondary.main;
 const unhoveredColor = websiteTheme.palette.primary.main;
@@ -25,11 +25,11 @@ const mapWidth = 800;
 const mapHeight = 400;
 
 export const Map = () => {
-  const isMobile = useMediaQuery((theme) => theme.breakpoints.down('md'));
+  const isMobile = useMediaQuery((theme) => theme.breakpoints.down("md"));
 
   const [position, setPosition] = useState({ coordinates: center, zoom: 1 });
-  const [hovered, setHovered] = useState('');
-  const [selected, setSelected] = useState('');
+  const [hovered, setHovered] = useState("");
+  const [selected, setSelected] = useState("");
   const maxZoom = isMobile ? 5 : 3;
 
   const handleMarkerHover = (place) => {
@@ -49,14 +49,14 @@ export const Map = () => {
     const result = await reactSwal.fire({
       title: story.title,
       text: story.text,
-      confirmButtonText: 'Close',
+      confirmButtonText: "Close",
       confirmButtonColor: websiteTheme.palette.primary.main,
-      width: isMobile ? '95%' : '60%',
+      width: isMobile ? "95%" : "60%",
     });
 
     if (result.isConfirmed || result.isDismissed) {
       setPosition({ coordinates: [0, 0], zoom: 1 });
-      setSelected('');
+      setSelected("");
     }
   };
 
@@ -88,17 +88,17 @@ export const Map = () => {
     <Paper
       elevation={5}
       sx={{
-        backgroundColor: 'transparent',
+        backgroundColor: "transparent",
       }}
     >
-      <ButtonGroup variant='text' size='large'>
-        <IconButton color='whites' onClick={handleZoomIn}>
+      <ButtonGroup variant="text" size="large">
+        <IconButton color="whites" onClick={handleZoomIn}>
           <ZoomInIcon />
         </IconButton>
-        <IconButton color='whites' onClick={handleZoomOut}>
+        <IconButton color="whites" onClick={handleZoomOut}>
           <ZoomOutIcon />
         </IconButton>
-        <IconButton color='whites' onClick={handleResetZoom}>
+        <IconButton color="whites" onClick={handleResetZoom}>
           <CenterFocusWeakIcon />
         </IconButton>
       </ButtonGroup>
@@ -116,13 +116,13 @@ export const Map = () => {
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
               geographies
-                .filter((cont) => cont.properties.REGION_UN !== 'Antarctica')
+                .filter((cont) => cont.properties.REGION_UN !== "Antarctica")
                 .map((geo) => (
                   <Geography
                     key={geo.rsmKey}
                     geography={geo}
-                    fill='#DDD'
-                    stroke='#FFF'
+                    fill="#DDD"
+                    stroke="#FFF"
                   />
                 ))
             }

@@ -1,27 +1,27 @@
-import React from 'react';
-import { Box, Typography } from '@mui/material';
-import { Image } from 'mui-image';
-import LazyLoad from 'react-lazyload';
+import React from "react";
+import { Box, Typography } from "@mui/material";
+import { Image } from "mui-image";
+import LazyLoad from "react-lazyload";
 import {
   UserSegments,
   UserSegmentDescription0,
   UserSegmentDescription1,
   UserSegmentDescription2,
-} from '../../assets';
-import { Heading } from '../Heading/Heading';
+} from "../../assets";
+import { Heading } from "../Heading/Heading";
 
 export const ArtsCenter = () => {
   return (
     <Box>
       <Heading
-        firstText='How Did I'
-        secondText='Approach This Project?'
-        variant='h4'
+        firstText="How Did I"
+        secondText="Approach This Project?"
+        variant="h4"
         fontWeight={600}
         hasSpace
-        mb='10px'
+        mb="10px"
       />
-      <Typography variant='h6' color='whites.main'>
+      <Typography variant="h6" color="whites.main">
         At the first stage of the project, I analyzed transcripted interviews of
         art center clients/customers (e.g. artists and art students), as well as
         volunteers and leaders of the Santa Cruz Mountains Art Center. The stage
@@ -30,7 +30,7 @@ export const ArtsCenter = () => {
         needs.
       </Typography>
       <br />
-      <Typography variant='h6' color='whites.main'>
+      <Typography variant="h6" color="whites.main">
         When I was first coding the interview, my goal was to gather enough
         information that allowed me to create an empathy map. For example, I
         highlight people’s words and actions, as well as their response to the
@@ -44,7 +44,7 @@ export const ArtsCenter = () => {
         users are and the emotions they are expressing.
       </Typography>
       <br />
-      <Typography variant='h6' color='whites.main'>
+      <Typography variant="h6" color="whites.main">
         Now that I gained some sense of initial observations on what my user
         group is, the next round of annotations would center on characterizing
         our users which will ultimately be used to create personas. Another way
@@ -54,10 +54,10 @@ export const ArtsCenter = () => {
         provides me sufficient insights on who my users are and how might I
         understand their life and story in relation to art?. The common
         categories are their motivations, their passion, their feelings, their
-        life experiences, and their environment.{' '}
+        life experiences, and their environment.{" "}
       </Typography>
       <br />
-      <Typography gutterBottom variant='h6' color='whites.main'>
+      <Typography gutterBottom variant="h6" color="whites.main">
         The final round of annotations centers on thinking about user needs and
         goals at the end, which will ultimately be used to articulate problem
         statements using the jobs-to-be-done framework. During this process, I
@@ -69,13 +69,13 @@ export const ArtsCenter = () => {
       </Typography>
 
       <LazyLoad>
-        <Image src={UserSegments} distance={300} shift='left' />
+        <Image src={UserSegments} distance={300} shift="left" />
       </LazyLoad>
       <LazyLoad>
         <Image
           src={UserSegmentDescription0}
           distance={300}
-          shift='right'
+          shift="right"
           showLoading
         />
       </LazyLoad>
@@ -83,7 +83,7 @@ export const ArtsCenter = () => {
         <Image
           src={UserSegmentDescription1}
           distance={300}
-          shift='left'
+          shift="left"
           showLoading
         />
       </LazyLoad>
@@ -91,7 +91,7 @@ export const ArtsCenter = () => {
         <Image
           src={UserSegmentDescription2}
           distance={300}
-          shift='right'
+          shift="right"
           showLoading
         />
       </LazyLoad>

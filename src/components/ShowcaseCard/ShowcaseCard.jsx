@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import React from "react";
+import { Link as RouterLink } from "react-router-dom";
 import {
   Grid,
   Card,
@@ -7,24 +7,24 @@ import {
   CardActionArea,
   Typography,
   useMediaQuery,
-} from '@mui/material';
-import { Image } from 'mui-image';
-import { websiteTheme } from '../../styles/websiteTheme';
+} from "@mui/material";
+import { Image } from "mui-image";
+import { websiteTheme } from "../../styles/websiteTheme";
 
 export const ShowcaseCard = (props) => {
-  const isXS = useMediaQuery((theme) => theme.breakpoints.down('sm'));
+  const isXS = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 
   const { image, company, title, body, to } = props;
   return (
     <Card
       elevation={0}
       sx={{
-        backgroundColor: 'transparent',
-        border: '4px solid',
-        borderColor: 'transparent',
+        backgroundColor: "transparent",
+        border: "4px solid",
+        borderColor: "transparent",
         borderRadius: 8,
-        transition: '0.4s',
-        '&:hover': {
+        transition: "0.4s",
+        "&:hover": {
           borderColor: websiteTheme.palette.primary.main,
         },
       }}
@@ -34,8 +34,8 @@ export const ShowcaseCard = (props) => {
         to={to}
         sx={{
           borderRadius: 8,
-          pt: '10px',
-          pb: '10px',
+          pt: "10px",
+          pb: "10px",
         }}
       >
         <Grid container spacing={2}>
@@ -44,16 +44,16 @@ export const ShowcaseCard = (props) => {
             xs={12}
             sm={4}
             sx={{
-              bgcolor: 'transparent',
+              bgcolor: "transparent",
             }}
           >
             <Image
               src={image}
               sx={{
-                maxWidth: '200px',
-                minHeight: '200px',
-                margin: 'auto',
-                border: '2px transparent',
+                maxWidth: "200px",
+                minHeight: "200px",
+                margin: "auto",
+                border: "2px transparent",
                 borderRadius: 8,
               }}
             />
@@ -61,17 +61,17 @@ export const ShowcaseCard = (props) => {
           {!isXS && (
             <Grid item xs={8}>
               <CardContent>
-                <Typography color='gray.main' variant='body1' fontWeight={600}>
+                <Typography color="gray.main" variant="body1" fontWeight={600}>
                   {company}
                 </Typography>
-                <Typography color='primary' fontWeight='bold' variant='h4'>
+                <Typography color="primary" fontWeight="bold" variant="h4">
                   {title}
                 </Typography>
                 <Typography
-                  color='whites.main'
+                  color="whites.main"
                   fontWeight={300}
                   paragraph={true}
-                  variant='h6'
+                  variant="h6"
                 >
                   {body}
                 </Typography>

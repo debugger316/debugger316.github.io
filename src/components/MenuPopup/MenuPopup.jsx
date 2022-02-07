@@ -1,24 +1,24 @@
-import { Link as RouterLink } from 'react-router-dom';
-import { Menu, MenuItem, IconButton, Typography } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
+import { Link as RouterLink } from "react-router-dom";
+import { Menu, MenuItem, IconButton, Typography } from "@mui/material";
+import MenuIcon from "@mui/icons-material/Menu";
 import {
   bindTrigger,
   bindMenu,
   usePopupState,
-} from 'material-ui-popup-state/hooks';
+} from "material-ui-popup-state/hooks";
 
-import { navButtonProps } from '../NavBar/constants';
+import { navButtonProps } from "../NavBar/constants";
 
 export const MenuPopup = () => {
-  const popupState = usePopupState({ variant: 'popover' });
+  const popupState = usePopupState({ variant: "popover" });
   return (
     <>
       <IconButton
         {...bindTrigger(popupState)}
-        color='primary'
+        color="primary"
         sx={{
           display: {
-            md: 'none',
+            md: "none",
           },
         }}
       >

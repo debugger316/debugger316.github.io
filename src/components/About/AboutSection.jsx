@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef } from "react";
 import {
   Grid,
   Typography,
@@ -6,9 +6,9 @@ import {
   CardContent,
   CircularProgress,
   Slide,
-} from '@mui/material';
-import { Image } from 'mui-image';
-import { myself } from '../../assets';
+} from "@mui/material";
+import { Image } from "mui-image";
+import { myself } from "../../assets";
 
 export const AboutSection = (props) => {
   const containerRef = useRef(null);
@@ -17,16 +17,16 @@ export const AboutSection = (props) => {
     <Card
       elevation={0}
       sx={{
-        justifyContent: 'center',
-        backgroundColor: 'transparent',
+        justifyContent: "center",
+        backgroundColor: "transparent",
       }}
     >
-      <Grid container justifyContent='center' alignItems='center'>
+      <Grid container justifyContent="center" alignItems="center">
         <Grid item xs={12} md={4}>
           <Image
             src={myself}
-            showLoading={<CircularProgress color='whites' />}
-            shift='right'
+            showLoading={<CircularProgress color="whites" />}
+            shift="right"
             sx={{
               borderRadius: 16,
             }}
@@ -34,7 +34,7 @@ export const AboutSection = (props) => {
         </Grid>
         <Grid item xs={12} md={8}>
           <Slide
-            direction='left'
+            direction="left"
             in={true}
             container={containerRef.current}
             timeout={3000}
@@ -43,37 +43,37 @@ export const AboutSection = (props) => {
             <CardContent
               sx={{
                 width: {
-                  md: '75%',
+                  md: "75%",
                 },
                 margin: {
-                  md: 'auto',
+                  md: "auto",
                 },
                 padding: {
-                  xs: '0',
+                  xs: "0",
                 },
               }}
             >
               <Typography
-                color='white'
-                fontWeight='bold'
-                variant='h2'
+                color="white"
+                fontWeight="bold"
+                variant="h2"
                 sx={{
-                  display: 'inline-block',
+                  display: "inline-block",
                 }}
               >
                 Celeste&nbsp;
               </Typography>
               <Typography
-                color='primary'
-                fontWeight='bold'
-                variant='h2'
+                color="primary"
+                fontWeight="bold"
+                variant="h2"
                 sx={{
-                  display: 'inline-block',
+                  display: "inline-block",
                 }}
               >
                 Zhao
               </Typography>
-              <Typography color='white' fontWeight={300} variant='h5'>
+              <Typography color="white" fontWeight={300} variant="h5">
                 Hi I am Celeste, I was born in a beautiful coastal city in
                 China, grew up in a snowy town outside of Vancouver in Canada,
                 currently studying the intersection between human needs and

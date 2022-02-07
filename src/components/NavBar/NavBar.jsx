@@ -1,4 +1,4 @@
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink } from "react-router-dom";
 import {
   AppBar,
   Toolbar,
@@ -6,16 +6,16 @@ import {
   Stack,
   Typography,
   IconButton,
-} from '@mui/material';
-import HomeIcon from '@mui/icons-material/Home';
-import { navButtonProps } from './constants';
-import { MenuPopup } from '../MenuPopup/MenuPopup';
+} from "@mui/material";
+import HomeIcon from "@mui/icons-material/Home";
+import { navButtonProps } from "./constants";
+import { MenuPopup } from "../MenuPopup/MenuPopup";
 
 const NavButton = (props) => {
   return (
     <IconButton component={RouterLink} to={props.to} color={props.color}>
       {props.icon}
-      <Typography fontWeight='bold' variant='h5' color='whites.main'>
+      <Typography fontWeight="bold" variant="h5" color="whites.main">
         {props.text}
       </Typography>
     </IconButton>
@@ -37,26 +37,26 @@ const NavButtons = () => {
 
 export const NavBar = () => {
   return (
-    <Container disableGutters={true} maxWidth='xl'>
-      <AppBar elevation={0} color='transparent' position='static'>
+    <Container disableGutters={true} maxWidth="xl">
+      <AppBar elevation={0} color="transparent" position="static">
         <Toolbar>
           <NavButton
             isHome
-            color='primary'
-            to='/'
+            color="primary"
+            to="/"
             icon={<HomeIcon />}
-            text='CZ'
+            text="CZ"
           />
           <Typography sx={{ flexGrow: 1 }}></Typography>
           <Stack
-            direction='row'
-            justifyContent='flex-end'
-            alignItems='center'
+            direction="row"
+            justifyContent="flex-end"
+            alignItems="center"
             spacing={3}
             sx={{
               display: {
-                xs: 'none',
-                md: 'inline-flex',
+                xs: "none",
+                md: "inline-flex",
               },
             }}
           >

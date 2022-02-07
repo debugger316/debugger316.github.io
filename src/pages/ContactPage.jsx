@@ -1,10 +1,10 @@
-import React from 'react';
-import { Heading } from '../components/Heading/Heading';
+import React from "react";
+import { Heading } from "../components/Heading/Heading";
 
 export const ContactPage = () => {
   return (
     <>
-      <Heading firstText='Con' secondText='tact' />
+      <Heading firstText="Con" secondText="tact" />
     </>
   );
 };
