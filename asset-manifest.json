@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d1e0cbf9.css",
-    "main.js": "/static/js/main.77d7d688.js",
+    "main.js": "/static/js/main.7794049c.js",
     "static/js/787.e230ecdc.chunk.js": "/static/js/787.e230ecdc.chunk.js",
     "static/media/banana-walnut-cake.jpg": "/static/media/banana-walnut-cake.e5458e75fae957f30ebf.jpg",
     "static/media/strawberry-coffee-cakes-with-crumble.jpg": "/static/media/strawberry-coffee-cakes-with-crumble.2b3f5ad899cc8096a156.jpg",
@@ -32,16 +32,17 @@
     "static/media/Artists-Served-by-Art-Center-Themes---Relevant-Context.png": "/static/media/Artists-Served-by-Art-Center-Themes---Relevant-Context.3924a84db120977016d7.png",
     "static/media/tech4good-logo.png": "/static/media/tech4good-logo.f9ed598a6256bd545a77.png",
     "static/media/gigs.jpg": "/static/media/gigs.153dfe17d61c435a7188.jpg",
+    "static/media/ai-economist.webp": "/static/media/ai-economist.e04ef44c0561c62e0b4f.webp",
     "static/media/twitter.png": "/static/media/twitter.b413b75b86f226240110.png",
     "static/media/scmac-full.jpg": "/static/media/scmac-full.85ed68b548f5f557122c.jpg",
     "static/media/scmac.jpg": "/static/media/scmac.7329410db1d82b4df89d.jpg",
     "index.html": "/index.html",
     "main.d1e0cbf9.css.map": "/static/css/main.d1e0cbf9.css.map",
-    "main.77d7d688.js.map": "/static/js/main.77d7d688.js.map",
+    "main.7794049c.js.map": "/static/js/main.7794049c.js.map",
     "787.e230ecdc.chunk.js.map": "/static/js/787.e230ecdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1e0cbf9.css",
-    "static/js/main.77d7d688.js"
+    "static/js/main.7794049c.js"
   ]
 }
