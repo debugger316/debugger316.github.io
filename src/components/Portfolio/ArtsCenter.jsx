@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 import { Image } from "mui-image";
 import LazyLoad from "react-lazyload";
 import {
@@ -12,7 +12,7 @@ import { Heading } from "../Heading/Heading";
 
 export const ArtsCenter = () => {
   return (
-    <Box>
+    <>
       <Heading
         firstText="How Did I"
         secondText="Approach This Project?"
@@ -69,7 +69,7 @@ export const ArtsCenter = () => {
       </Typography>
 
       <LazyLoad>
-        <Image src={UserSegments} distance={300} shift="left" />
+        <Image src={UserSegments} distance={300} shift="left" showLoading />
       </LazyLoad>
       <LazyLoad>
         <Image
@@ -95,6 +95,6 @@ export const ArtsCenter = () => {
           showLoading
         />
       </LazyLoad>
-    </Box>
+    </>
   );
 };

@@ -74,14 +74,16 @@ export const AboutSection = (props) => {
                 Zhao
               </Typography>
               <Typography color="white" fontWeight={300} variant="h5">
-                Hi I am Celeste, I was born in a beautiful coastal city in
-                China, grew up in a snowy town outside of Vancouver in Canada,
+                Hi I am Celeste, a researcher in human-centered design. I was
+                born in a beautiful coastal city next to Hong Kong in China,
+                grew up in the Okanagan area of Vancouver in Canada, and I am
                 currently studying the intersection between human needs and
-                technologies. I have a passion for tech and law, healthy dishes,
-                and outdoor activities! <br /> <br />I love travelling and have
-                been very lucky to travel to around 10 different countries
-                before the pandemic. Here are some pictures of the spectacular
-                places I have visited.
+                technologies. I have a passion for technology and law, healthy
+                dishes, and outdoor activities! <br /> <br />I love travelling
+                and have been very lucky to travel to around 10 different
+                countries before the pandemic. Below is a map containing dots of
+                the spectacular places I've visited. Clicking on the dots will
+                reveal pictures and my story with that location!
               </Typography>
             </CardContent>
           </Slide>

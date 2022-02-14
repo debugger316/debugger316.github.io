@@ -1,35 +1,36 @@
-import { twitter, gigs, scmac, tech4good } from "../../assets";
+import { twitter, gigs, scmac, aiEconomist } from "../../assets";
 import { AiEconomist } from "./AiEconomist";
 import { ArtsCenter } from "./ArtsCenter";
 import { GigWellbeing } from "./GigWellbeing";
+import { TwitterAnalysis } from "./TwitterAnalysis"
 
 export const projectsSummary = [
   {
     image: gigs,
     company: "Tech4Good Lab",
-    title: "Gig Well-being",
-    body: "At the Tech4Good Lab at UCSC...",
+    title: "Gig Wellbeing",
+    body: "A Look into the Mental Health of Workers in the Booming Gig Economy",
     to: "gig-well-being",
   },
   {
     image: scmac,
     company: "Santa Cruz Mountain Arts Center",
     title: "Human-Centered Design Research",
-    body: `Problem solving my local arts center's marketing and leadership issues through the integration of technology`,
+    body: `Solving my Local Arts Center's Marketing and Leadership Issues Through the Integration of Technology`,
     to: "hcd-research",
   },
   {
     image: twitter,
     company: "Center for Applied Values and Ethics in Advancing Technologies",
     title: "Twitter Semantic Analysis",
-    body: "At the Center for Applied Values in Emerging Technologies...",
+    body: "Twitter’s Main Page Topic Feasibility Analysis for Ethical and Societal Issues",
     to: "twitter-semantic-analysis",
   },
   {
-    image: tech4good,
+    image: aiEconomist,
     company: "Tech4Good Lab",
     title: "AI-Economist",
-    body: "For this AI-Economist...",
+    body: "Analyzing the Potential of AI in Apprenticeship Learning",
     to: "ai-economist",
   },
 ];
@@ -58,7 +59,7 @@ export const projectsFull = {
     type: "UX Research",
     description:
       "The overall goal of this project is to help my local art center to succeed in building a diverse and multicultural community during the pandemic time when they are lacking strong leadership and consistent volunteers.",
-    toolkit: ["Figma", "Annota"],
+    toolkit: ["Figma", "Annota", "Otter.ai"],
     methodologies: ["User Research", "Coding", "Empathizing"],
     Component: ArtsCenter,
   },
@@ -67,13 +68,13 @@ export const projectsFull = {
     company: "Center for Applied Values and Ethics in Advancing Technologies",
     title: "Twitter Semantic Analysis",
     type: "HCI Research",
-    description: "",
-    toolkit: ["Python", "Twitter API"],
+    description: "Social and ethical dilemmas are a point of contention on Twitter and generate both hateful and empowering messages. However, due to the higher interactions that hateful messages receive, the full scope of public opinion becomes obscured when just viewing Twitter’s main page. As of now, we know of no method that makes analyzing Twitter comprehensible and accessible to the everyday individual,As of now, we know of no method that makes analyzing Twitter comprehensible and accessible to the everyday individual, even though the immense volume of tweets on Twitter present an untapped potential in the New Age of Data Analytics.",
+    toolkit: ["Python", "Twitter API", "NLP"],
     methodologies: ["User Interviewing", "User Research"],
-    Component: "",
+    Component: TwitterAnalysis,
   },
   "ai-economist": {
-    image: tech4good,
+    image: aiEconomist,
     company: "Tech4Good Lab",
     title: "AI-Economist",
     type: "HCI Research",

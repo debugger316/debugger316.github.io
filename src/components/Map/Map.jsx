@@ -49,6 +49,7 @@ export const Map = () => {
     const result = await reactSwal.fire({
       title: story.title,
       text: story.text,
+      imageUrl: story.image,
       confirmButtonText: "Close",
       confirmButtonColor: websiteTheme.palette.primary.main,
       width: isMobile ? "95%" : "60%",

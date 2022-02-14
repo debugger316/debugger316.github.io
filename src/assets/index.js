@@ -1,4 +1,5 @@
 export * from "./scmac";
+export { default as aiEconomist } from "./ai-economist.webp";
 export { default as autumnChestnutPumpkinPie } from "./autumn-chestnut-pumpkin-pie.jpg";
 export { default as background } from "./background.jpg";
 export { default as bananaWalnutCake } from "./banana-walnut-cake.jpg";
@@ -14,3 +15,12 @@ export { default as sweetAndSourChicken } from "./sweet-and-sour-chicken-in-a-pi
 export { default as tech4good } from "./tech4good-logo.png";
 export { default as twitter } from "./twitter.png";
 export { default as darkChocolateChipCookies } from "./ultra-soft-dark-chocolate-chip-cookies.jpg";
+export { default as tokyo } from "./tokyo.jpg";
+export { default as santaCruz } from "./santa-cruz.png";
+export { default as shanghai } from "./shanghai.jpg";
+export { default as banff } from "./banff.jpg";
+export { default as shenzhen } from "./shenzhen.png";
+export { default as vancouver } from "./vancouver.jpg";
+export { default as paris } from "./paris.jpg";
+export { default as london } from "./london.jpg";
+export { default as frankfurt } from "./frankfurt.jpg";

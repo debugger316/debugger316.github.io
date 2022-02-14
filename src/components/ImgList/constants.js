@@ -2,7 +2,7 @@ import * as images from "../../assets";
 export const food = [
   {
     image: images.autumnChestnutPumpkinPie,
-    name: "Autumn Chesnut Pumpkin Pie",
+    name: "Autumn Chestnut Pumpkin Pie",
   },
   {
     image: images.bananaWalnutCake,
