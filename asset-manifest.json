@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08db2891.css",
-    "main.js": "/static/js/main.b2faa61d.js",
+    "main.js": "/static/js/main.d4ed5e9c.js",
     "static/js/787.e230ecdc.chunk.js": "/static/js/787.e230ecdc.chunk.js",
     "static/media/ui-flow.jpg": "/static/media/ui-flow.35f3209095794d6cdd72.jpg",
     "static/media/ux-flow.jpg": "/static/media/ux-flow.610fa9a613416b775159.jpg",
@@ -18,9 +18,18 @@
     "static/media/ux-flow.png": "/static/media/ux-flow.893f345a8cf1e0857538.png",
     "static/media/ultra-soft-dark-chocolate-chip-cookies.jpg": "/static/media/ultra-soft-dark-chocolate-chip-cookies.4f2f25f5fd62c0694b1f.jpg",
     "static/media/fall-style-steak-salad.jpg": "/static/media/fall-style-steak-salad.0c39894ab93c73538be2.jpg",
+    "static/media/hiFi-loggedIn-class-listing-overview-3.png": "/static/media/hiFi-loggedIn-class-listing-overview-3.d9affa9f437c0fa426eb.png",
+    "static/media/hiFi-loggedIn-class-listing-overview-4.png": "/static/media/hiFi-loggedIn-class-listing-overview-4.58d2cd339ba096fa37c8.png",
+    "static/media/hiFi-loggedIn-class-listing-overview-5.png": "/static/media/hiFi-loggedIn-class-listing-overview-5.58d2cd339ba096fa37c8.png",
+    "static/media/hiFi-landing-page.png": "/static/media/hiFi-landing-page.d817f93aec7c875e0fe5.png",
     "static/media/strawberry-oats-pancakes.jpg": "/static/media/strawberry-oats-pancakes.b9e833e16eb116597d62.jpg",
     "static/media/sweet-and-sour-chicken-in-a-pineapple.jpg": "/static/media/sweet-and-sour-chicken-in-a-pineapple.8802444eff2c737bc444.jpg",
+    "static/media/hiFi-loggedIn-class-listing-overview-2.png": "/static/media/hiFi-loggedIn-class-listing-overview-2.2ccfa0822c0c11434762.png",
     "static/media/background.jpg": "/static/media/background.05fd833a144e3d625c81.jpg",
+    "static/media/hiFi-loggedIn-class-listing-overview-1.png": "/static/media/hiFi-loggedIn-class-listing-overview-1.36deb6712a9f353b452a.png",
+    "static/media/hiFi-logged-in-search-results-watercolor.png": "/static/media/hiFi-logged-in-search-results-watercolor.9a5389ce35c6568059a2.png",
+    "static/media/frame-218.png": "/static/media/frame-218.a8ba86769fa0b6bc1fd9.png",
+    "static/media/frame-219.png": "/static/media/frame-219.505794ae22c41aa075e3.png",
     "static/media/Problem-Statement.png": "/static/media/Problem-Statement.929324cb0a9da8a96b11.png",
     "static/media/tokyo.jpg": "/static/media/tokyo.6fce265fd7823b44b5fa.jpg",
     "static/media/filter.png": "/static/media/filter.4933010357df447fb63c.png",
@@ -40,6 +49,7 @@
     "static/media/User-Segment-Description.png": "/static/media/User-Segment-Description.20703c212c542603c5de.png",
     "static/media/storyboard-pstatement3.png": "/static/media/storyboard-pstatement3.fcc6780dc6414dc49dfc.png",
     "static/media/storyboard-pstatement2.png": "/static/media/storyboard-pstatement2.ad83e336d7fa6ab42db2.png",
+    "static/media/frame-220.png": "/static/media/frame-220.51a29be706ba00b398f8.png",
     "static/media/ads-landing.png": "/static/media/ads-landing.441cd439ece608e3ec66.png",
     "static/media/Art-Center-Leadership-Themes---Goals-and-Problems.png": "/static/media/Art-Center-Leadership-Themes---Goals-and-Problems.d3eacbfaa1009022c584.png",
     "static/media/Adult-Art-Students-&-Parents-Themes---Goals-and-Problems.png": "/static/media/Adult-Art-Students-&-Parents-Themes---Goals-and-Problems.a0cdc1162f7d38554e95.png",
@@ -73,11 +83,11 @@
     "static/media/scmac.jpg": "/static/media/scmac.7329410db1d82b4df89d.jpg",
     "index.html": "/index.html",
     "main.08db2891.css.map": "/static/css/main.08db2891.css.map",
-    "main.b2faa61d.js.map": "/static/js/main.b2faa61d.js.map",
+    "main.d4ed5e9c.js.map": "/static/js/main.d4ed5e9c.js.map",
     "787.e230ecdc.chunk.js.map": "/static/js/787.e230ecdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08db2891.css",
-    "static/js/main.b2faa61d.js"
+    "static/js/main.d4ed5e9c.js"
   ]
 }
