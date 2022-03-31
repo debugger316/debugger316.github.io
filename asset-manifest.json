@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.08db2891.css",
-    "main.js": "/static/js/main.8d6b94e4.js",
+    "main.js": "/static/js/main.8df349ae.js",
     "static/js/787.e230ecdc.chunk.js": "/static/js/787.e230ecdc.chunk.js",
     "static/media/ui-flow.jpg": "/static/media/ui-flow.35f3209095794d6cdd72.jpg",
     "static/media/ux-flow.jpg": "/static/media/ux-flow.610fa9a613416b775159.jpg",
@@ -20,13 +20,12 @@
     "static/media/fall-style-steak-salad.jpg": "/static/media/fall-style-steak-salad.0c39894ab93c73538be2.jpg",
     "static/media/hiFi-loggedIn-class-listing-overview-3.png": "/static/media/hiFi-loggedIn-class-listing-overview-3.d9affa9f437c0fa426eb.png",
     "static/media/hiFi-loggedIn-class-listing-overview-4.png": "/static/media/hiFi-loggedIn-class-listing-overview-4.58d2cd339ba096fa37c8.png",
-    "static/media/hiFi-loggedIn-class-listing-overview-5.png": "/static/media/hiFi-loggedIn-class-listing-overview-5.58d2cd339ba096fa37c8.png",
     "static/media/hiFi-landing-page.png": "/static/media/hiFi-landing-page.d817f93aec7c875e0fe5.png",
     "static/media/strawberry-oats-pancakes.jpg": "/static/media/strawberry-oats-pancakes.b9e833e16eb116597d62.jpg",
     "static/media/sweet-and-sour-chicken-in-a-pineapple.jpg": "/static/media/sweet-and-sour-chicken-in-a-pineapple.8802444eff2c737bc444.jpg",
-    "static/media/hiFi-loggedIn-class-listing-overview-2.png": "/static/media/hiFi-loggedIn-class-listing-overview-2.2ccfa0822c0c11434762.png",
+    "static/media/hiFi-loggedIn-class-listing-overview-1.png": "/static/media/hiFi-loggedIn-class-listing-overview-1.627653346b5d46ed7e3a.png",
     "static/media/background.jpg": "/static/media/background.05fd833a144e3d625c81.jpg",
-    "static/media/hiFi-loggedIn-class-listing-overview-1.png": "/static/media/hiFi-loggedIn-class-listing-overview-1.36deb6712a9f353b452a.png",
+    "static/media/hiFi-loggedIn-class-listing-overview-2.png": "/static/media/hiFi-loggedIn-class-listing-overview-2.8f8e8839b999a1e612e4.png",
     "static/media/hiFi-logged-in-search-results-watercolor.png": "/static/media/hiFi-logged-in-search-results-watercolor.9a5389ce35c6568059a2.png",
     "static/media/frame-218.png": "/static/media/frame-218.a8ba86769fa0b6bc1fd9.png",
     "static/media/frame-219.png": "/static/media/frame-219.505794ae22c41aa075e3.png",
@@ -42,6 +41,7 @@
     "static/media/not-logged-in-class-listing-page-overview.png": "/static/media/not-logged-in-class-listing-page-overview.fcdffcf4920c8b647332.png",
     "static/media/logged-in-class-listing-overview.png": "/static/media/logged-in-class-listing-overview.ccef5e1601a1774c8ea0.png",
     "static/media/Problem-Statement-3.png": "/static/media/Problem-Statement-3.6ee278519faa877e56ea.png",
+    "static/media/hiFi-loggedIn-class-listing-overview-6.png": "/static/media/hiFi-loggedIn-class-listing-overview-6.d8dbf1600569c4c3216f.png",
     "static/media/Problem-Statement-5.png": "/static/media/Problem-Statement-5.c91ca8444de761bbbaff.png",
     "static/media/myself.JPG": "/static/media/myself.d1114c3e4887c70e9170.JPG",
     "static/media/Updates-Made-to-Themes.png": "/static/media/Updates-Made-to-Themes.b98a75396f27ac84f564.png",
@@ -83,11 +83,11 @@
     "static/media/scmac.jpg": "/static/media/scmac.7329410db1d82b4df89d.jpg",
     "index.html": "/index.html",
     "main.08db2891.css.map": "/static/css/main.08db2891.css.map",
-    "main.8d6b94e4.js.map": "/static/js/main.8d6b94e4.js.map",
+    "main.8df349ae.js.map": "/static/js/main.8df349ae.js.map",
     "787.e230ecdc.chunk.js.map": "/static/js/787.e230ecdc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08db2891.css",
-    "static/js/main.8d6b94e4.js"
+    "static/js/main.8df349ae.js"
   ]
 }
